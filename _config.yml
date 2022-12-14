@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: NatureBound - Verifiable Biodiversity Outcomes
+email: hello@naturebound.ai
+description: Where farmers and businesses come together to combat the loss of biodiversity and climate change by verifying biodiversity outcomes in regenerative agriculture
+baseurl:  # the subpath of your site, e.g. /blog/
+url: "https://www.naturebound.ai" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: natureboundai
+linkedin_company: natureboundltd
 
 # Build settings
 markdown: kramdown
