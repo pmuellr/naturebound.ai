@@ -400,6 +400,16 @@ header {
     font-size: 4em;
 }
 
+.embeddable-buttondown-form {
+    text-align: center;
+
+    input[type="submit"] {
+        background-color:$theme-primary;
+        border: none;
+        line-height: 2em;
+    }
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
