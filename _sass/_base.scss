@@ -111,11 +111,11 @@ aside {
             height: 1.5em;
 
             &.white-logo {
-                display: block;
-            }
-
-            &.colour-logo {
                 display: none;
+            }
+            
+            &.colour-logo {
+                display: block;
             }
         }
     }
@@ -164,11 +164,11 @@ aside {
 
             img {
                 &.white-logo {
-                    display: none;
+                    display: block;
                 }
                 
                 &.colour-logo {
-                    display: block;
+                    display: none;
                 }
             }
         }
