@@ -194,6 +194,16 @@ aside {
                 &:focus {
                     color: darken($theme-primary, 10%);
                 }
+
+                img {
+                    &.white-logo {
+                        display: none;
+                    }
+                    
+                    &.colour-logo {
+                        display: block;
+                    }
+                }
             }
 
             .nav>li>a,
