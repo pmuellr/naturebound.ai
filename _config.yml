@@ -2,7 +2,7 @@
 title: NatureBound - Verifiable Biodiversity Outcomes
 email: hello@naturebound.ai
 description: Where farmers and businesses come together to combat the loss of biodiversity and climate change by verifying biodiversity outcomes in regenerative agriculture
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.naturebound.ai" # the base hostname & protocol for your site
 
 twitter_username: natureboundai

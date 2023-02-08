@@ -237,6 +237,9 @@ header {
         width: 100%;
 
         .header-content-inner {
+             > img {
+                margin: auto;
+             }
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -254,6 +257,19 @@ header {
                 font-size: 16px;
                 margin-bottom: 50px;
             }
+
+            ul {
+                list-style: none;
+                margin-top: 3em;
+                li {
+                    width:45%;
+                    display: inline-block;
+                    img {                        
+                        height: 6em;
+                        border:none;
+                    }
+                }
+            }
         }
     }
 
@@ -262,7 +278,7 @@ header {
 
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 35%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
