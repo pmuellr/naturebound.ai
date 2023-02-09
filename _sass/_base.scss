@@ -236,10 +236,12 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
 
+        .fit img {
+            height: 3em;
+            margin:auto;
+        }
+
         .header-content-inner {
-             > img {
-                margin: auto;
-             }
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -260,12 +262,12 @@ header {
 
             ul {
                 list-style: none;
-                margin-top: 3em;
+                margin: 2em 0;
                 li {
                     width:45%;
                     display: inline-block;
                     img {                        
-                        height: 6em;
+                        max-height: 2em;
                         border:none;
                     }
                 }
@@ -278,7 +280,7 @@ header {
 
         .header-content {
             position: absolute;
-            top: 35%;
+            top: 55%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
