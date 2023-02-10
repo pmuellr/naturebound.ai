@@ -496,3 +496,21 @@ body {
         bottom: 4px;
     }
 }
+
+#team {
+    padding-bottom: 0px;
+    img {
+        margin: 2em 0em;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        
+        &:hover {
+            filter: alpha(opacity=100);
+            opacity: 1;
+        }
+    }
+    
+    em {
+        display: block;
+    }
+}
