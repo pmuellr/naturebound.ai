@@ -48,7 +48,7 @@ p {
 }
 
 .text-primary {
-  color: #a0c657;
+  color: $theme-primary;
 }
 a.text-primary:hover {
   color: #fff;
@@ -429,13 +429,15 @@ header {
     font-size: 4em;
 }
 
-.embeddable-buttondown-form {
-    text-align: center;
-
-    input[type="submit"] {
-        background-color:$theme-primary;
-        border: none;
-        line-height: 2em;
+#about {
+    .embeddable-buttondown-form {
+        text-align: center;
+    
+        input[type="submit"] {
+            background-color:$theme-primary;
+            border: none;
+            line-height: 2em;
+        }
     }
 }
 
@@ -484,6 +486,28 @@ body {
     margin-left: 0.5rem;
 }
 
+#team {
+    padding-bottom: 0px;
+    img {
+        margin: 2em auto;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        
+        &:hover {
+            filter: alpha(opacity=100);
+            opacity: 1;
+        }
+    }
+
+    h2 {
+        color: $theme-primary;
+    }
+    
+    P {
+        @include sans-serif-font;
+    }
+}
+
 @media (max-width: 767px) {
     #cookie-notice span {
         display: block;
@@ -495,22 +519,18 @@ body {
         position: relative;
         bottom: 4px;
     }
-}
 
-#team {
-    padding-bottom: 0px;
-    img {
-        margin: 2em 0em;
-        filter: alpha(opacity=50);
-        opacity: 0.5;
-        
-        &:hover {
-            filter: alpha(opacity=100);
-            opacity: 1;
+    #about {
+        .embeddable-buttondown-form {
+            label {
+                display: block;
+            }
         }
     }
     
-    em {
-        display: block;
+    #team {
+        img {
+            width: 50%;
+        }
     }
 }
